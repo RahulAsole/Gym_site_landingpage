@@ -1,0 +1,125 @@
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+ height: 1000px;
+    background-image: url('barbell-g961751dd7_1920.jpg'); 
+}
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+}
+.left img{
+    margin-left: 12px;                    /* this is for icon . for center or position replacement*/
+    width: 40px;
+    filter: invert(100%);
+}
+.left div{
+   
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.mid{
+  /*  this three use to set the content in center - display: , width: , margin: auto;.*/
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+  
+  
+    
+
+}
+
+.right{
+    
+    display: inline-block;
+    position: absolute;
+
+    right: 25px;
+    top: 20px;
+
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+ 
+    text-decoration: underline;
+   color: gray;
+}
+
+.navbar li{
+  
+    display: inline-block;
+}
+
+
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background-color: rgb(245, 65, 65);
+}
+
+
+.container{
+    font-family: monospace;
+    margin: 225px 40px;
+    padding: 90px;
+    width: 50%;
+    border-radius: 28px;
+}
+.small{
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.large{
+    
+    font-size: 70px;
+    font-weight: 400;
+   
+    
+  
+}
+#str{
+    color: orange;
+}
+.down{
+    font-size: 70px;
+font-weight: 400;
+}
+.btn1{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: orange;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.btn1:hover{
+   background-color: rgb(250, 205, 122);
+}
